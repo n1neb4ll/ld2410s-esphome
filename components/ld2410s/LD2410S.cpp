@@ -29,6 +29,7 @@ namespace esphome
                     }
                 }
             }
+            yield();
         }
 
         void LD2410S::set_config_mode(bool enabled) {
